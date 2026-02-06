@@ -1,4 +1,4 @@
-## 6. Guia de Execução
+## Guia de Execução
 
 Siga os passos abaixo para iniciar o projeto completo (Backend + Frontend).
 
