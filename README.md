@@ -92,6 +92,8 @@ Sistema sincronizado com o Backend para gerar alertas no dispositivo sobre horá
 
 Siga os passos abaixo para iniciar o projeto completo (Backend + Frontend).
 
+Caso Você saiba que o backend já está rodando em alguma máquina, só precisa inserir o endereço correto em `app_config.dart` e rodar o app no seu Android Studio
+
 ### Passo 1: Backend (Docker)
 
 1. Abra o terminal na pasta raiz do Backend (SuaPeleBackend).
