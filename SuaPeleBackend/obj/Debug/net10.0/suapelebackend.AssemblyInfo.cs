@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("suapelebackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+274db767c0ad57f262ceab112a519f9941f49232")]
 [assembly: System.Reflection.AssemblyProductAttribute("suapelebackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("suapelebackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

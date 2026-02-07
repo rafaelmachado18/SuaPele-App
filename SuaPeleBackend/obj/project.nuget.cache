@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sdlb63W7HvE=",
+  "dgSpecHash": "9iHt5dptt9E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafam\\projects\\SuaPeleBackend\\suapelebackend.csproj",
+  "projectFilePath": "C:\\Users\\rafam\\StudioProjects\\Sua_Pele-Mobile_app\\SuaPeleBackend\\suapelebackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafam\\.nuget\\packages\\castle.core\\5.2.1\\castle.core.5.2.1.nupkg.sha512",
     "C:\\Users\\rafam\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafam\\projects\\SuaPeleBackend\\suapelebackend.csproj": {}
+    "C:\\Users\\rafam\\StudioProjects\\Sua_Pele-Mobile_app\\SuaPeleBackend\\suapelebackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafam\\projects\\SuaPeleBackend\\suapelebackend.csproj": {
+    "C:\\Users\\rafam\\StudioProjects\\Sua_Pele-Mobile_app\\SuaPeleBackend\\suapelebackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafam\\projects\\SuaPeleBackend\\suapelebackend.csproj",
+        "projectUniqueName": "C:\\Users\\rafam\\StudioProjects\\Sua_Pele-Mobile_app\\SuaPeleBackend\\suapelebackend.csproj",
         "projectName": "suapelebackend",
-        "projectPath": "C:\\Users\\rafam\\projects\\SuaPeleBackend\\suapelebackend.csproj",
+        "projectPath": "C:\\Users\\rafam\\StudioProjects\\Sua_Pele-Mobile_app\\SuaPeleBackend\\suapelebackend.csproj",
         "packagesPath": "C:\\Users\\rafam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafam\\projects\\SuaPeleBackend\\obj\\",
+        "outputPath": "C:\\Users\\rafam\\StudioProjects\\Sua_Pele-Mobile_app\\SuaPeleBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rafam\\AppData\\Roaming\\NuGet\\NuGet.Config"

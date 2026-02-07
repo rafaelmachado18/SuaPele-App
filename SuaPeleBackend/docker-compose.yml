@@ -4,8 +4,8 @@ services:
     container_name: suapele_db
     restart: always
     environment:
-      POSTGRES_USER: rafaelmachado18
-      POSTGRES_PASSWORD: Mumias86
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
       POSTGRES_DB: suapeledb
     ports:
       - "5432:5432"
@@ -21,4 +21,4 @@ services:
       - db
     environment:
       - ASPNETCORE_URLS=http://+:8080
-      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=suapeledb;Username=rafaelmachado18;Password=Mumias86
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=suapeledb;Username=${DB_USERNAME};Password=${DB_PASSWORD}
