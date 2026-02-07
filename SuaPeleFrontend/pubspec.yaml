@@ -1,0 +1,39 @@
+name: suapelefrontend
+description: "Sua Pele Core"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.8 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI e Utilitários
+  cupertino_icons: ^1.0.8
+  dio: ^5.4.0
+  image_picker: ^1.0.7
+  permission_handler: ^11.3.0
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+  #  Para o notification_service.dart
+
+  flutter_local_notifications: ^18.0.1
+
+  # Banco de dados de fusos horários
+  timezone: ^0.9.4
+
+  #  Permite pegar o fuso horário real do celular
+  flutter_timezone: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ic_launcher.png
