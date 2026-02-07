@@ -1,0 +1,40 @@
+# --- SEGURANCA E AMBIENTE ---
+.env
+.env.*
+secrets.json
+*.pfx
+*.jks
+
+# --- FLUTTER & DART ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/.last_build_id
+android/app/src/main/res/raw/
+android/app/build.gradle
+
+# --- .NET / C# (BACKEND) ---
+bin/
+obj/
+publish/
+appsettings.Development.json
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# --- DOCKER ---
+.docker/
+data/pgdata/
+
+# --- IDEs (VS Code, Visual Studio, IntelliJ) ---
+.vscode/
+.vs/
+.idea/
+*.swp
+*.iml
+.DS_Store
