@@ -1,7 +1,7 @@
 # Projeto Sua Pele - Documentação Técnica
 
 ## 1. Visão Geral
-O **Sua Pele** é uma solução de software integrada para saúde dermatológica. O sistema permite o registro e monitoramento de lesões de pele, além do gerenciamento completo de planos de tratamento (medicamentos, consultas e rotinas fotográficas). O foco principal é facilitar a adesão do paciente ao tratamento e gerar um histórico clínico detalhado.
+O **Sua Pele** é uma solução de software integrada para saúde dermatológica. O sistema permite o registro e monitoramento de lesões de pele, utilizando Inteligência Artificial para realizar pré-diagnósticos que são enviados via e-mail ao médico escolhido, além do gerenciamento completo de planos de tratamento (medicamentos, consultas e rotinas fotográficas). O foco principal é facilitar a adesão do paciente ao tratamento e gerar um histórico clínico detalhado.
 
 ---
 
@@ -10,13 +10,12 @@ O **Sua Pele** é uma solução de software integrada para saúde dermatológica
 ### Tecnologias e Framework
 * **Linguagem:** C# (.NET)
 * **ORM:** Entity Framework Core (EF Core)
-* **Abordagem:** Code-First (Classes C# definem o banco)
-
+  
 ### Arquitetura
 O sistema segue uma **Arquitetura em Camadas (Layered Architecture)**, separando rigidamente as responsabilidades:
-1. **Apresentação:** Controllers (API).
-2. **Lógica de Negócio:** Interfaces e Serviços.
-3. **Acesso a Dados:** Repositórios e Contexto.
+1. **Apresentação:** Telas e Interface.
+2. **Lógica de Controle:** A lógica do app, e a conexão com os serviços de IA e Email.
+3. **Acesso a Dados:** O Repositório é o único que acesa o banco de dados.
 
 ### Banco de Dados (PostgreSQL + Docker)
 O banco de dados não é criado manualmente via SQL. Utilizamos o EF Core para gerenciar o esquema e aplicar mudanças via **Migrations** em um container **PostgreSQL** orquestrado pelo **Docker**.
@@ -50,10 +49,6 @@ O projeto utiliza Interfaces (ex: `ITratamentoRepository`) para definir contrato
 ### Docker e WebHost
 O projeto é containerizado. O arquivo `Program.cs` configura o WebHost para operar dentro do ambiente Docker, gerenciando a injeção de dependência e o ciclo de vida dos serviços.
 
-### Configuração de Conexão (Program.cs)
-O sistema detecta automaticamente o ambiente para definir a String de Conexão:
-* **Localhost:** Para desenvolvimento fora do container.
-* **Host=db:** Para comunicação interna na rede Docker.
 
 ### Swagger
 Ferramenta integrada para documentação e teste manual dos endpoints da API, permitindo validação das rotas antes da integração com o frontend.
